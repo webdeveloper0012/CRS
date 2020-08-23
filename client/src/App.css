@@ -1,0 +1,257 @@
+/*.App {
+  text-align: center;
+}*/
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 60px;
+}
+
+.con{
+    width:80%;
+    margin:0px auto;
+    padding-top:10px;
+}
+.navMys {
+    background-color: #006699;
+}
+.w80{
+    width:80%;
+    margin:0px auto;
+}
+.w90 {
+    width: 90%;
+    margin: 0px auto;
+}
+.w60 {
+    width: 60%;
+    margin: 0px auto;
+}
+.formw60 {
+    width: 60%;
+    margin: 0px auto;
+    background-color: #006699;
+    padding: 30px;
+    border-radius: 20px;
+    /*color: white;*/
+}
+.formwlogin {
+    width: 450px;
+    margin: 0px auto;
+    background-color: #006699;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top:260px;
+}
+.formw6011 {
+    width: 60%;
+    margin: 0px auto;
+}
+
+.formw60 label, .formwlogin label {
+    color: white;
+}
+.formw60 input, .formwlogin input {
+    color: white;
+}
+@media only screen and (max-width: 992px) {
+    .w80 {
+        width: 100%;
+    }
+    .w90 {
+        width: 100%;
+    }
+    .con {
+        width: 100%;
+    }
+    .formw60 {
+        width:90%;
+    }
+    .w60 {
+        width: 100%;
+    }
+    .formwlogin {
+        width: 95%;
+        margin-top: 0px;
+    }
+}
+.stuImg{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+}
+
+.file_input {
+    float: left;
+}
+
+#file_input_text_div {
+    float:left;
+    width: 200px;
+    margin-top: -8px;
+    margin-left: 5px;
+}
+.none {
+    display: none;
+}
+.mt-40{
+    margin-top:40px;
+}
+.scrolldiv{
+    height:100px;
+    overflow-y:scroll;
+}
+.hei{
+    height:1500px;
+    width:100%;
+    background-color:yellow;
+}
+.modelHeader{
+    width:100%;
+    height:100px;
+    text-align:center;
+    color:white;
+    background-color:#006699;
+    padding-top:35px;
+}
+.imglogo{
+    width:50px;
+    height:50px;
+    float:left;
+}
+/*userCV*/
+.mainHeader{
+    width:100%;
+    float:left;
+}
+.studentDP{
+    width: 100%;
+    /*height: 200px;*/
+    /*float:left;*/
+}
+.studentDPimg {
+    width: 150px;
+    height: 200px;
+    box-shadow: gray 0px 5px 10px;
+    border-radius:10px;
+}
+.studentName {
+    display:inline;
+    font-size: 42px;
+    padding-right: 50px;
+    color: #808080;
+    float:right;
+    padding-top:130px;
+    bottom:0px;
+}
+.lineBreaker {
+    width: 100%;
+    margin-top:10px;
+    height: 2px;
+    background-color: #808080;
+    box-shadow:gray 0px 6px 10px;
+    float:left;
+}
+.skillSingle {
+text-align:right;
+font-size:30px;
+color:#d0d0d0 !important;
+padding-top:10px;
+padding-right:20px;
+}
+.desireWorkP {
+    text-align: center;
+    color: #20a6ff !important;
+    font-size: 20px;
+    padding-top:20px;
+    margin: 0px auto !important;
+}
+td{
+    max-width:200px;
+}
+/*userCV*/
+.headingform{
+    color:white;
+    text-align:center;
+}
+.iconSkills {
+    position: relative;
+    top: 5px;
+    right: -4px;
+    font-size:20px;
+    cursor:pointer;
+}
+.chipIcon {
+    float: left;
+    margin: 0 8px 0 -12px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+}
+.skillP{
+    font-size:18px;
+    font-weight:600;
+}
+
+.selectFileDiv {
+    float: left;
+    width: 100%;
+}
+.selectFileDiv .input-field {
+    margin-top: 0px !important;
+}
+.marIcon {
+    margin: 19px -4px 10px 10px;
+}
+.imgComplogo {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.imgDrop {
+    cursor:pointer;
+    float:right;
+}
+.clsStudentListTr td{
+    padding:5px 5px;
+}
+.imgBoxDiv {
+    float: right;
+    width: 150px;
+}
+.w80top {
+    width: 100%;
+    float:left;
+}
+.mainpagebox {
+    width: 80%;
+    /*border: 1px dashed #006699;*/
+    box-shadow: #006699 0px 0px 10px inset;
+    padding:10px;
+}
+.iconFix{
+    margin-top:40px;
+}
+.inputNum1 {
+    float:left;
+    width: 100%;
+    position:relative;
+}
+.inputNum1 button {
+    position: absolute;
+    right : 0;
+}
+/*#p_wrap {
+    white-space: pre-line;
+}*/
+
+@media only screen and (max-width: 992px) {
+    .tblReq.responsive-table {
+        display: flex;
+    }
+}
